@@ -16,7 +16,7 @@ jobs:
       - name: Checkout support repo
         uses: actions/checkout@v3
         with:
-          repository: cklewar/f5-xc-test
+          repository: lesleycw/f5-xc-test
           path: f5-xc-cert
           token:  ${{ secrets.GH_PAT }}
       - run: echo "The  ${{ github.release }} release has been cloned to the runner."
@@ -61,7 +61,7 @@ jobs:
       - name: Checkout support repo
         uses: actions/checkout@v3
         with:
-          repository: cklewar/f5-xc-test
+          repository: lesleycw/f5-xc-test
           path: f5-xc-cert
           token:  ${{ secrets.GH_PAT }}
       - run: echo "The  ${{ github.release }} release has been cloned to the runner."
@@ -119,7 +119,7 @@ jobs:
       - name: Checkout support repo
         uses: actions/checkout@v3
         with:
-          repository: cklewar/f5-xc-test
+          repository: lesleycw/f5-xc-test
           path: f5-xc-cert
           token:  ${{ secrets.GH_PAT }}
       - run: echo "The  ${{ github.release }} release has been cloned to the runner."
@@ -177,7 +177,7 @@ jobs:
       - name: Checkout support repo
         uses: actions/checkout@v3
         with:
-          repository: cklewar/f5-xc-test
+          repository: lesleycw/f5-xc-test
           path: f5-xc-cert
           token:  ${{ secrets.GH_PAT }}
       - run: echo "The  ${{ github.release }} release has been cloned to the runner."
